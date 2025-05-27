@@ -1,5 +1,5 @@
 # Use Python base image
-FROM python:2.10-slim
+FROM python:3.10-slim
 
 # Copy app.py into the image
 COPY app.py .
